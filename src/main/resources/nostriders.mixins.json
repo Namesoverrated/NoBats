@@ -1,0 +1,13 @@
+
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.filler.nostriders.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "NoStriders"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

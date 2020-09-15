@@ -1,0 +1,29 @@
+
+{
+  "schemaVersion": 1,
+  "id": "nostriders",
+  "version": "${version}",
+
+  "name": "No Striders",
+  "description": "Stops striders from spawning.",
+  "authors": [
+    "Filler256"
+  ],
+  "contact": {
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/nostriders/icon.png",
+
+  "environment": "*",
+
+  "mixins": [
+    "nostriders.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  }
+}
