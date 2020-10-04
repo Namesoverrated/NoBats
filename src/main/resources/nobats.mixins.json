@@ -2,10 +2,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.filler.nostriders.mixin",
+  "package": "com.filler.nobats.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "NoStriders"
+    "Nobats"
   ],
   "injectors": {
     "defaultRequire": 1
