@@ -1,13 +1,13 @@
 
 {
   "schemaVersion": 1,
-  "id": "nostriders",
+  "id": "nobats",
   "version": "${version}",
 
-  "name": "No Striders",
-  "description": "Stops striders from spawning.",
+  "name": "No Bats",
+  "description": "Stops Bats from spawning. Based off Filler256's No Strider mod",
   "authors": [
-    "Filler256"
+    "echohunter69"
   ],
   "contact": {
     "sources": ""
