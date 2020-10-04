@@ -1,4 +1,4 @@
-package com.filler.nostriders.mixin;
+package com.filler.nobats.mixin;
 
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnReason;
