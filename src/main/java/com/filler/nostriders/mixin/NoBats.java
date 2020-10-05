@@ -11,8 +11,8 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import java.util.Random;
 
-@Mixin(StriderEntity.class)
-public class NoStriders {
+@Mixin(BatEntity.class)
+public class NoBats {
 	@Inject(method = "canSpawn", at = @At("HEAD"), cancellable = true)
 	private static void canSpawn(EntityType<? extends BatEntity> type, WorldAccess world, SpawnReason spawnReason, BlockPos pos, Random random, CallbackInfoReturnable info) {
 		if (type.equals(EntityType.BAT)){
