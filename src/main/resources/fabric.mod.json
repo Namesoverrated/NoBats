@@ -19,7 +19,7 @@
   "environment": "*",
 
   "mixins": [
-    "nostriders.mixins.json"
+    "nobats.mixins.json"
   ],
 
   "depends": {
