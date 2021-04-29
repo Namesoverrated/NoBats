@@ -5,7 +5,7 @@
   "package": "com.filler.nobats.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "Nobats"
+    "NoBats"
   ],
   "injectors": {
     "defaultRequire": 1
